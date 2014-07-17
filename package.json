@@ -2,10 +2,11 @@
   "name": "passport-rdio-oauth2.0",
   "description": "Rdio authentication for Passport (http://passportjs.org)",
   "version": "0.0.1",
-  "author": "Steve Lacy <amos.kyler@gmail.com> (http://amoskyler.com)",
-  "homepage": "https://github.com/stevelacy/passport-cloudup",
+  "author": "Amos Kyler <amos.kyler@gmail.com> (http://amoskyler.com)",
+  "homepage": "https://github.com/amoskyler/passport-rdio-oauth2.0",
   "dependencies": {
-    "passport-oauth2": "^1.1.2"
+    "passport-oauth2": "^1.1.2",
+    "oauth": "https://github.com/stevelacy/node-oauth/tarball/master"
   },
   "devDependencies": {
     "mocha": "^1.20.1",
