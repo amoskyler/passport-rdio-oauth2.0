@@ -1,4 +1,4 @@
-var CloudupStrategy = require('../lib/strategy');
+var rdioStrategy = require('../lib/strategy');
 
 describe('Strategy:userProfile', function() {
 
@@ -29,12 +29,12 @@ describe('Strategy:userProfile', function() {
     });
 
     it('should parse profile', function() {
-      expect(profile.provider).to.equal('cloudup');
+      expect(profile.provider).to.equal('rdio');
 
       expect(profile.id).to.equal('1');
       expect(profile.username).to.equal('octocat');
       expect(profile.name).to.equal('monalisa octocat');
-      expect(profile.avatar).to.equal('https://i.cloudup.com/i1');
+      expect(profile.avatar).to.equal('https://i.rdio.com/i1');
     });
 
     it('should set raw property', function() {
@@ -67,5 +67,4 @@ describe('Strategy:userProfile', function() {
       expect(profile).to.be.undefined;
     });
   });
-
 });
